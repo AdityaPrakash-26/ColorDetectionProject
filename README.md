@@ -25,8 +25,3 @@ This is a Python command line project made with [Python](https://www.python.org)
 The program listens for a click, and then calculates the shortest distance of the selected pixel from the provided color list in `colors.csv`. It returns the closest match and displays the same in a rectangle at the top of the image.
 
 ![GIF representation of the project](./assets/ColorRecogGIF.gif)
-
-## More info
-
-- markdown formatted with [prettier](https://prettier.io)
-- Python code formatted with [black](https://github.com/psf/black)
