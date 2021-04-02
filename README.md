@@ -1,25 +1,32 @@
 # ColorDetectionProject
 
-Greetings!
+This is a Python command line project made with [Python](https://www.python.org), [OpenCV](https://opencv.org), and [Pandas](https://pandas.pydata.org).
 
-This is a CLI project made with Python, OpenCV, Pandas and <3
+## Getting started
 
-To run the project, you need to write the following command:
+1. Install [python 3](https://www.python.org)
+2. Install [dependencies](./requirements.txt)
 
-  `python3 main.py -i <PATH_TO_IMAGE>`
-  
-After that, clicking anywhere on the image you provided will return the name of the color, and the RGB values. Press escape to exit the program
+- `pip3 install -r requirements.txt`
 
-Dependencies
+3. Run project
 
-• OpenCV
+- `python3 main.py -i <PATH_TO_IMAGE>`
+- example:
+  - `python3 main.py -i example.png`
 
-• Numpy
+## How to use
 
-• Pandas
+1. Click anywhere on the image. This will return the name of the closest color and the RGB values.
+2. Press escape to exit the program.
 
-# How it works?
+## How it works?
 
 The program listens for a click, and then calculates the shortest distance of the selected pixel from the provided color list in `colors.csv`. It returns the closest match and displays the same in a rectangle at the top of the image.
 
-![GIF representation of the project](https://github.com/AdityaPrakash-26/ColorDetectionProject/blob/master/assets/ColorRecogGIF.gif)
+![GIF representation of the project](./assets/ColorRecogGIF.gif)
+
+## More info
+
+- markdown formatted with [prettier](https://prettier.io)
+- Python code formatted with [black](https://github.com/psf/black)
