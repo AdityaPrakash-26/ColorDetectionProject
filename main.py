@@ -33,6 +33,7 @@ def getColorName(R, G, B):
             cname = csv.loc[i, "color_name"]
     return cname
 
+
 # function to get x,y coordinates of mouse double click
 def draw_function(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
@@ -65,7 +66,7 @@ while 1:
 
         # For very light colours we will display text in black colour
         if (r + g + b >= 600):
-            cv2.putText(img, text, (50, 50), 2, 0.8, (0, 0, 0), 2, cv2.LINE_AA)
+            cv2.putText(img, colorName, (50, 50), 2, 0.8, (0, 0, 0), 2, cv2.LINE_AA)
 
         clicked = False
 
