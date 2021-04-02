@@ -12,8 +12,6 @@ After that, clicking anywhere on the image you provided will return the name of 
 
 Dependencies
 
-• Python
-
 • OpenCV
 
 • Numpy
