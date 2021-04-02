@@ -8,7 +8,7 @@ To run the project, you need to write the following command:
 
   `python3 main.py -i <PATH_TO_IMAGE>`
   
-After that, clicking anywhere on the image you provided shall return the name of the color, and the RGB values. Press escape to exit
+After that, clicking anywhere on the image you provided will return the name of the color, and the RGB values. Press escape to exit the program
 
 Dependencies
 
