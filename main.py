@@ -12,7 +12,8 @@ img_path = args["image"]
 img = cv2.imread(img_path)
 height, width, _ = img.shape
 
-# square root of sums of squares of the sides is the actual max but that requires importing the math module
+# square root of sums of squares of the sides is the actual max 
+#  (Pythagoras Theorem) but that requires importing the math module
 max_distance = height * width
 
 print("Press Esc to exit the program!  :)")
