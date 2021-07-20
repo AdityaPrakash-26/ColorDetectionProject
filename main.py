@@ -54,7 +54,7 @@ def draw_function(event, x, y, flags, param):
         g = int(g)
         r = int(r)
 
-
+# driver code
 cv2.namedWindow("Photo")
 cv2.setMouseCallback("Photo", draw_function)
 
