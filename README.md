@@ -22,6 +22,6 @@ This is a Python command line project made with [Python](https://www.python.org)
 
 ## How it works?
 
-The program listens for a click, and then calculates the shortest distance of the selected pixel from the provided color list in `colors.csv`. It returns the closest match and displays the same in a rectangle at the top of the image.
+The program listens for a click, and then calculates the shortest distance of the selected pixel from the provided color list in `colors.csv`. It returns the closest match and displays the same in a rectangle at the top of the image. We keep track of a `minimum` variable, which is initially intialized to `max_distance` possible from a color. This `minimum` variable will be used to calculate the least difference between the currently calculated colour and all the colors in the `colors.csv` file. For more info, see [here](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/)
 
 ![GIF representation of the project](./assets/ColorRecogGIF.gif)
