@@ -7,7 +7,7 @@ This is a Python command line project made with [Python](https://www.python.org)
 1. Install [python 3](https://www.python.org)
 2. Install [dependencies](./requirements.txt)
 
-- `pip3 install -r requirements.txt`
+- [`pip3`](https://www.scaler.com/topics/what-is-pip-in-python/) `install -r requirements.txt`
 
 3. Run project
 
